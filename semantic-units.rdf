@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	<skos:OrderedCollection rdf:about="http://lingv.ro/ontology/semantic-units">
+		<rdfs:label>Tipuri de unități semantice subsumate</rdfs:label>
+		<skos:memberList rdf:parseType="Collection">
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/semantic-units/#uuid-acc022ee-9172-30dc-89ab-dab64ed20513">
+				<skos:prefLabel>proverb</skos:prefLabel>
+				<skos:hiddenLabel>proverb</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-acc022ee-9172-30dc-89ab-dab64ed20513</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/semantic-units/#uuid-74340187-5f84-37f2-8cea-285bfb07d03f">
+				<skos:prefLabel>zicătoare</skos:prefLabel>
+				<skos:hiddenLabel>saying</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-74340187-5f84-37f2-8cea-285bfb07d03f</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/semantic-units/#uuid-1a04e836-e358-3693-8fe8-43aca289510d">
+				<skos:prefLabel>ghicitoare</skos:prefLabel>
+				<skos:hiddenLabel>sibyl</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-1a04e836-e358-3693-8fe8-43aca289510d</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/semantic-units/#uuid-2953cc06-59be-34cc-b372-aec5374a771e">
+				<skos:prefLabel>sintagmă</skos:prefLabel>
+				<skos:hiddenLabel>syntagma</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-2953cc06-59be-34cc-b372-aec5374a771e</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/semantic-units/#uuid-47186732-c47a-3d43-bee3-09aa20d9d213">
+				<skos:prefLabel>expresie</skos:prefLabel>
+				<skos:hiddenLabel>phrase</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-47186732-c47a-3d43-bee3-09aa20d9d213</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/semantic-units/#uuid-fae21b6c-0498-3fbf-b0b6-899d05b23a48">
+				<skos:prefLabel>compus</skos:prefLabel>
+				<skos:hiddenLabel>compound</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-fae21b6c-0498-3fbf-b0b6-899d05b23a48</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/semantic-units/#uuid-ecb64b72-a8d9-45a6-b64b-72a8d9d5a671">
+				<skos:prefLabel>construcție</skos:prefLabel>
+				<skos:hiddenLabel>construction</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-ecb64b72-a8d9-45a6-b64b-72a8d9d5a671</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/semantic-units/#uuid-7626011a-fbb3-31a4-9be0-5988a0726961">
+				<skos:prefLabel>loc. adj.</skos:prefLabel>
+				<skos:hiddenLabel>adjectival-locution</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-7626011a-fbb3-31a4-9be0-5988a0726961</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/semantic-units/#uuid-04255df7-1cf1-3314-9c6e-a8ad010cc819">
+				<skos:prefLabel>loc. adv.</skos:prefLabel>
+				<skos:hiddenLabel>adverbial-locution</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-04255df7-1cf1-3314-9c6e-a8ad010cc819</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/semantic-units/#uuid-3dbc1505-dcc2-32e0-a15d-acfecf2d56d6">
+				<skos:prefLabel>loc. prep.</skos:prefLabel>
+				<skos:hiddenLabel>prepositional-locution</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-3dbc1505-dcc2-32e0-a15d-acfecf2d56d6</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/semantic-units/#uuid-a17650fb-c7ed-37f4-bab7-0fd496a4509f">
+				<skos:prefLabel>loc. conj.</skos:prefLabel>
+				<skos:hiddenLabel>conjunctional-locution</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-a17650fb-c7ed-37f4-bab7-0fd496a4509f</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/semantic-units/#uuid-deb2c7b2-5552-311b-9ee5-57e229412635">
+				<skos:prefLabel>loc. vb.</skos:prefLabel>
+				<skos:hiddenLabel>verbal-locution</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-deb2c7b2-5552-311b-9ee5-57e229412635</skos:notation>
+			</skos:Concept>
+		</skos:memberList>
+	</skos:OrderedCollection>
+</rdf:RDF>

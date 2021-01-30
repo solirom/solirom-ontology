@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:org="http://www.w3.org/ns/org#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<skos:OrderedCollection rdf:about="http://lingv.ro/ontology/accounts">
+		<rdfs:label>Utilizatori</rdfs:label>
+		<skos:memberList rdf:parseType="Collection">
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#Anabella">
+				<foaf:Person>
+					<foaf:name>Niculescu-Gorpin Anabella-Gloria</foaf:name>
+					<foaf:mbox rdf:resource="mailto:"/>
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors"/>
+				</foaf:Person>
+				<skos:notation>Anabella</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#anghelina.alexandru">
+				<foaf:Person>
+					<foaf:name>Anghelina Alexandru</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>anghelina.alexandru</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#Catalina.Corbeanu">
+				<foaf:Person>
+					<foaf:name>Corbeanu Ramona Catalina</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>Catalina.Corbeanu</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#Catamara">
+				<foaf:Person>
+					<foaf:name>Mărănduc Cătălina</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>Catamara</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#cristina.florescu">
+				<foaf:Person>
+					<foaf:name>Florescu Cristina</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>cristina.florescu</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#Dana-Melania">
+				<foaf:Person>
+					<foaf:name>Bădic Dana-Melania</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>Dana-Melania</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#FlorinSterian">
+				<foaf:Person>
+					<foaf:name>Sterian Florin</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>FlorinSterian</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#FlorinV">
+				<foaf:Person>
+					<foaf:name>Vasilescu Florin</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>FlorinV</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#Gabriela_Haja">
+				<foaf:Person>
+					<foaf:name>Haja Gabriela</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>Gabriela_Haja</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#garofitad">
+				<foaf:Person>
+					<foaf:name>Dincă Garofița</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>garofitad</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#isabelle.tamba">
+				<foaf:Person>
+					<foaf:name>Tamba Isabella</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>isabelle.tamba</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#laura.manea">
+				<foaf:Person>
+					<foaf:name>Manea Laura</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>laura.manea</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#Lilianah">
+				<foaf:Person>
+					<foaf:name>Hoinărescu Liliana</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>Lilianah</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#marius.clim">
+				<foaf:Person>
+					<foaf:name>Clim Marius</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>marius.clim</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#mihaela.marin">
+				<foaf:Person>
+					<foaf:name>Marin Mihaela</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>mihaela.marin</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#mioara.dragomir">
+				<foaf:Person>
+					<foaf:name>Dragomir Mioara</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>mioara.dragomir</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#monica.busuioc">
+				<foaf:Person>
+					<foaf:name>Busuioc Monica</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>monica.busuioc</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#msmihaelap">
+				<foaf:Person>
+					<foaf:name>Popescu Mihaela</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>msmihaelap</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#Nicoleta">
+				<foaf:Person>
+					<foaf:name>Mihai Nicoleta</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>Nicoleta</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#r_nedea">
+				<foaf:Person>
+					<foaf:name>Nedea Raluca-Mihaela</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>r_nedea</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#tests">
+				<foaf:Person>
+					<foaf:name>teste</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>tests</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#victor.celac">
+				<foaf:Person>
+					<foaf:name>Celac Victor</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>victor.celac</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#vozduh">
+				<foaf:Person>
+					<foaf:name>Popuşoi Carolina</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>vozduh</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#guest">
+				<foaf:Person>
+					<foaf:name>guest</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>guest</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#valentinas">
+				<foaf:Person>
+					<foaf:name>Cojocaru Valentina</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>valentinas</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#Maria.Stefanescu">
+				<foaf:Person>
+					<foaf:name>Ștefănescu Maria</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>Maria.Stefanescu</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#admin">
+				<foaf:Person>
+					<foaf:name>dlr admin</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>admin</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#stefania.vulpe">
+				<foaf:Person>
+					<foaf:name>Vulpe Ștefania</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>stefania.vulpe</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/accounts/#mirceaminica">
+				<foaf:Person>
+					<foaf:name>Minică Mircea</foaf:name>
+					<foaf:mbox rdf:resource="mailto:" />
+					<org:Membership rdf:resource="http://lingv.ro/ontology/roles/#dlr-redactors" />
+				</foaf:Person>
+				<skos:notation>mirceaminica</skos:notation>
+			</skos:Concept>			
+		</skos:memberList>
+	</skos:OrderedCollection>
+</rdf:RDF>

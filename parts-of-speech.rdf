@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	<skos:OrderedCollection rdf:about="http://lingv.ro/ontology/parts-of-speech">
+		<rdfs:label>Părți de vorbire</rdfs:label>
+		<skos:memberList rdf:parseType="Collection">
+			<skos:Concept rdf:about="http://lingv.ro/ontology/parts-of-speech/#common-noun">
+				<skos:prefLabel>s.</skos:prefLabel>
+				<skos:example />
+				<skos:notation>s.</skos:notation>
+				<skos:narrowMatch rdf:resource="http://lingv.ro/ontology/parts-of-speech/gender" />
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/parts-of-speech/#proper-noun">
+				<skos:prefLabel>s. pr.</skos:prefLabel>
+				<skos:example />
+				<skos:notation>s. pr.</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/parts-of-speech/#verb">
+				<skos:prefLabel>vb.</skos:prefLabel>
+				<skos:example />
+				<skos:notation>vb.</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/parts-of-speech/#adjective">
+				<skos:prefLabel>adj.</skos:prefLabel>
+				<skos:example />
+				<skos:notation>adj.</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/parts-of-speech/#adverb">
+				<skos:prefLabel>adv.</skos:prefLabel>
+				<skos:example />
+				<skos:notation>adv.</skos:notation>
+				<skos:narrowMatch rdf:resource="http://lingv.ro/ontology/parts-of-speech/adverb#interrogative" />
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/parts-of-speech/#conjunction">
+				<skos:prefLabel>conj.</skos:prefLabel>
+				<skos:example />
+				<skos:notation>conj.</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/parts-of-speech/#interjection">
+				<skos:prefLabel>interj.</skos:prefLabel>
+				<skos:example />
+				<skos:notation>interj.</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/parts-of-speech/#preposition">
+				<skos:prefLabel>prep.</skos:prefLabel>
+				<skos:example />
+				<skos:notation>prep.</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/parts-of-speech/#article">
+				<skos:prefLabel>art.</skos:prefLabel>
+				<skos:example />
+				<skos:notation>art.</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/parts-of-speech/#pronoun">
+				<skos:prefLabel>pron.</skos:prefLabel>
+				<skos:example />
+				<skos:notation>pron.</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/parts-of-speech/#subst.">
+				<skos:prefLabel>subst.</skos:prefLabel>
+				<skos:example />
+				<skos:notation>subst.</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/parts-of-speech/#numeral">
+				<skos:prefLabel>num.</skos:prefLabel>
+				<skos:example />
+				<skos:notation>num.</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/parts-of-speech/#gender">
+				<skos:prefLabel>gen</skos:prefLabel>
+				<skos:example />
+				<skos:notation>gender</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/parts-of-speech/adverb#interrogative">
+				<skos:prefLabel>interog.</skos:prefLabel>
+				<skos:example />
+				<skos:notation>interrogative</skos:notation>
+			</skos:Concept>
+		</skos:memberList>
+	</skos:OrderedCollection>
+</rdf:RDF>
+
+<!-- @prefix pos: <http://reecedunn.co.uk/linguistics/model/pos/> . -->
+<!-- @prefix upenn: <http://reecedunn.co.uk/linguistics/pos/upenn/> . -->
+<!-- @prefix wp20: <http://reecedunn.co.uk/linguistics/pos/wp20/> . -->
+<!-- @prefix wp39: <http://reecedunn.co.uk/linguistics/pos/wp39/> . -->
+
+<!-- pos: a skos:ConceptScheme ; -->
+<!-- dct:title "Parts of Speech"@en ; -->
+<!-- skos:notation "pos" ; -->
+<!-- skos:hasTopConcept pos:adjective ; -->
+<!-- skos:hasTopConcept pos:adverb ; -->
+<!-- skos:hasTopConcept pos:conjunction ; -->
+<!-- skos:hasTopConcept pos:determiner ; -->
+<!-- skos:hasTopConcept pos:interjection ; -->
+<!-- skos:hasTopConcept pos:noun ; -->
+<!-- skos:hasTopConcept pos:number ; -->
+<!-- skos:hasTopConcept pos:particle ; -->
+<!-- skos:hasTopConcept pos:preposition ; -->
+<!-- skos:hasTopConcept pos:pronoun ; -->
+<!-- skos:hasTopConcept pos:verb . -->
+
+<!-- pos:verb a skos:Concept ; -->
+<!-- skos:prefLabel "verb"@en ; -->
+<!-- skos:notation "verb" ; -->
+<!-- skos:inScheme pos: . -->
+<!-- ======================================== -->
+<!-- wp20:v a skos:Concept ; -->
+<!-- skos:prefLabel "verb"@en ; -->
+<!-- skos:notation "v" ; -->
+<!-- skos:broadMatch pos:verb ; -->
+<!-- skos:narrowMatch upenn:vb ; -->
+<!-- skos:narrowMatch wp39:vb ; -->
+<!-- skos:inScheme wp20: -->
+
+<!-- wp39:vb a skos:Concept ; -->
+<!-- skos:prefLabel "verb"@en ; -->
+<!-- skos:notation "vb" ; -->
+<!-- skos:exactMatch upenn:vb ; -->
+<!-- skos:broadMatch wp20:v ; -->
+<!-- skos:inScheme wp39: . -->
+
+<!-- upenn:vb a skos:Concept ; -->
+<!-- skos:prefLabel "verb"@en ; -->
+<!-- skos:notation "VB" ; -->
+<!-- skos:broadMatch wp20:v ; -->
+<!-- skos:exactMatch wp39:vb ; -->
+<!-- skos:inScheme upenn: . -->
+	
+	
+	
+	

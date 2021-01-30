@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:org="http://www.w3.org/ns/org#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	<skos:OrderedCollection rdf:about="http://lingv.ro/ontology/roles">
+		<rdfs:label>Grupuri de utilizatori</rdfs:label>
+		<skos:memberList rdf:parseType="Collection">
+			<skos:Concept rdf:about="http://lingv.ro/ontology/roles/#dlr-redactors">
+				<skos:prefLabel>Redactori DLRI</skos:prefLabel>
+				<skos:notation>dlr-redactors</skos:notation>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/roles/#dlr-editors">
+				<skos:prefLabel>Revizori DLRI</skos:prefLabel>
+				<skos:notation>dlr-editors</skos:notation>
+			</skos:Concept>
+		</skos:memberList>
+	</skos:OrderedCollection>
+</rdf:RDF>

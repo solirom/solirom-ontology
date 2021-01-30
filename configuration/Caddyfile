@@ -1,0 +1,88 @@
+solirom.ro {
+    root /var/web/solirom-site
+    gzip
+    tls claudius.teodorescu@gmail.com
+    proxy /data localhost:5050
+    proxy /api localhost:8095
+    proxy /exist localhost:8080
+}
+
+admin.solirom.ro {
+    root /var/web/solirom-admin-site
+    tls claudius.teodorescu@gmail.com
+    proxy /gitea localhost:3000 {
+        without /gitea
+    }
+    proxy /data localhost:5050
+    proxy /api localhost:7007
+    proxy /exist localhost:8080
+    proxy /old-api localhost:8095 {
+        without /old-api
+    }
+}
+
+citation-corpus.solirom.ro {
+    root /var/web/citation-corpus-site
+    gzip
+    tls claudius.teodorescu@gmail.com
+    proxy /api localhost:8095
+}
+
+delr.solirom.ro {
+    root /var/web/delr-site
+    gzip
+    tls claudius.teodorescu@gmail.com
+    proxy /search localhost:8095 {
+        without /search
+    }
+}
+
+dex.solirom.ro {
+    root /var/web/dex-site
+    gzip
+    tls claudius.teodorescu@gmail.com
+    proxy /search localhost:8095 {
+        without /search
+    }
+}
+
+dlri.ro {
+    root /var/web/dlr-site
+    #gzip
+    tls claudius.teodorescu@gmail.com
+    #proxy /exist localhost:8080
+}
+
+repo.dlri.ro:80 {
+    root /var/web/repo
+    tls off
+}
+
+tdrg.solirom.ro {
+    #root /var/web/tdrg-site
+    gzip
+    tls claudius.teodorescu@gmail.com
+    proxy / http://85.186.121.41/tdrg/
+    #proxy /search localhost:8095 {
+    #    without /search
+    #}
+}
+
+dlr1900.solirom.ro {
+    root /var/web/dlr1900-site
+    gzip
+    tls claudius.teodorescu@gmail.com
+    proxy /search localhost:8095 {
+        without /search
+    }
+}
+
+uuid.solirom.ro {
+    gzip
+    tls claudius.teodorescu@gmail.com
+    proxy / localhost:7010 {
+        transparent
+        header_downstream Access-Control-Allow-Origin "*"
+    }
+}
+

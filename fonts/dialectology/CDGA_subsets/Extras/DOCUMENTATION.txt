@@ -1,0 +1,16 @@
+DOCUMENTATION
+Subsets
+========================
+
+This file describes the documentation files included with the Subset Package. 
+This information should be distributed along with the Subset packages
+and any derivative works.
+
+Primary documentation for the Subset package is on the SIL Font Subsets 
+website (http://scripts.sil.org/FontSubsets).
+
+The *.txt files list the Unicode Scalar Values for each regional font subset
+
+The *.nam files contain FontLab Studio name table files for each regional font subset
+
+The *.cfg files are the configuration files used for creating each font Subset

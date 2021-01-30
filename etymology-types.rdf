@@ -1,0 +1,676 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	<skos:OrderedCollection rdf:about="http://lingv.ro/ontology/etymology/types">
+		<rdfs:label>Tipuri de etimologii</rdfs:label>
+		<skos:memberList rdf:parseType="Collection">
+			<skos:OrderedCollection rdf:about="http://lingv.ro/ontology/etymology/types/headword">
+				<rdfs:label>Tipuri de etimologii pentru cuvântul-titlu</rdfs:label>
+				<skos:memberList rdf:parseType="Collection">
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-6852b1af-5097-314d-ac22-fb896fdcfcc2">
+						<skos:prefLabel>element moştenit-etimon atestat</skos:prefLabel>
+						<skos:hiddenLabel>element.moştenit-etimon.atestat</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-6852b1af-5097-314d-ac22-fb896fdcfcc2</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-84a2fb91-c13e-3812-ba5a-d8bcbdf002f6">
+						<skos:prefLabel>element moştenit-etimon neatestat</skos:prefLabel>
+						<skos:hiddenLabel>element.moştenit-etimon.neatestat</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-84a2fb91-c13e-3812-ba5a-d8bcbdf002f6</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-d5809921-0ad4-3058-86cd-c9ae14c794b6">
+						<skos:prefLabel>cuvânt de origine</skos:prefLabel>
+						<skos:hiddenLabel>cuv.de.origine</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-d5809921-0ad4-3058-86cd-c9ae14c794b6</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-19abf3b3-e566-321b-a8c7-82213b39039f">
+						<skos:prefLabel>formație internă-derivat-cu prefix</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-derivat-cu.prefix</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-19abf3b3-e566-321b-a8c7-82213b39039f</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-62774c11-47a2-3919-a6d7-2f1532820a80">
+						<skos:prefLabel>formație internă-derivat-cu sufix</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-derivat-cu.sufix</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-62774c11-47a2-3919-a6d7-2f1532820a80</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-75eaa04e-2692-3782-9b80-25c11e6ad0e1">
+						<skos:prefLabel>formație internă-derivat-cu prefix şi sufix</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-derivat-cu.prefix.şi.sufix</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-75eaa04e-2692-3782-9b80-25c11e6ad0e1</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-d3d4d7e0-2e38-3601-9be0-25dde0b1bf4e">
+						<skos:prefLabel>formație internă-compus-element de compunere + cuvânt bază</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-compus-element.de.compunere.+.cuvânt.bază</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-d3d4d7e0-2e38-3601-9be0-25dde0b1bf4e</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-ad52c70f-1260-30ed-9bb2-512c92bc2eff">
+						<skos:prefLabel>formație internă-compus-cuvânt bază + element de compunere</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-compus-cuvânt.bază.+.element.de.compunere</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-ad52c70f-1260-30ed-9bb2-512c92bc2eff</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-5b993d57-5c58-3506-8db2-125d7a012951">
+						<skos:prefLabel>formație internă-compus-din mai multe cuvinte de bază</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-compus-din.mai.multe.cuvinte.de.bază</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-5b993d57-5c58-3506-8db2-125d7a012951</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-8b514cc3-da02-35f6-8897-791ecaafde97">
+						<skos:prefLabel>formație internă-compus-formație savantă din latină</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-compus-formație.savantă.din.latină</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-8b514cc3-da02-35f6-8897-791ecaafde97</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-87b33d1e-4a38-3a62-a022-e91270ccb036">
+						<skos:prefLabel>formație internă-compus-format din</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-compus-format.din</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-87b33d1e-4a38-3a62-a022-e91270ccb036</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-bb7d58cd-7074-35a2-9805-5ede7835d0c7">
+						<skos:prefLabel>formație internă-derivat regresiv</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-derivat.regresiv</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-bb7d58cd-7074-35a2-9805-5ede7835d0c7</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-2b24cd53-3548-3cf9-8eb9-9f190adf1ad1">
+						<skos:prefLabel>formație internă-derivat postverbal</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-derivat.postverbal</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-2b24cd53-3548-3cf9-8eb9-9f190adf1ad1</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-11b71f3a-f499-3710-9ce1-3345ab71f4e0">
+						<skos:prefLabel>formație internă-trimitere-V.</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-trimitere-V.</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-11b71f3a-f499-3710-9ce1-3345ab71f4e0</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-567ae951-6bbb-4015-bae9-516bbb801502">
+						<skos:prefLabel>formație internă-derivat îndepărtat</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-derivat.îndepărtat</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-567ae951-6bbb-4015-bae9-516bbb801502</skos:notation>
+					</skos:Concept>                  
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-4abb1a05-7ead-3934-98ce-904512dfa4e8">
+						<skos:prefLabel>formație internă-trimitere-Cf.</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-trimitere-Cf.</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-4abb1a05-7ead-3934-98ce-904512dfa4e8</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-56f1aaed-bec3-3f5a-8f46-09f3e99b1209">
+						<skos:prefLabel>formație internă-trimitere-De la-numele ştiințific al plantei</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-trimitere-De.la-numele.ştiințific.al.plantei</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-56f1aaed-bec3-3f5a-8f46-09f3e99b1209</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-8fadae97-1566-3cc5-bc21-92c441149a53">
+						<skos:prefLabel>formație internă-trimitere-De la-s. pr.</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-trimitere-De.la-s..pr.</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-8fadae97-1566-3cc5-bc21-92c441149a53</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-0a784bc3-ca56-356b-8f33-fc2cdba6d835">
+						<skos:prefLabel>formație internă-trimitere-De la-numele de localitate</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-trimitere-De.la-numele.de.localitate</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-0a784bc3-ca56-356b-8f33-fc2cdba6d835</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-d3f49be3-6ddd-3db2-bcee-28a9423c9bdc">
+						<skos:prefLabel>formație internă-trimitere-De la-numele sărbătorii religioase</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-trimitere-De.la-numele.sărbătorii.religioase</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-d3f49be3-6ddd-3db2-bcee-28a9423c9bdc</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-87802c77-f22c-3a01-ba0c-aeada544f154">
+						<skos:prefLabel>formație internă-trimitere-De la-numele ştiințific al planetei</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-trimitere-De.la-numele.ştiințific.al.planetei</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-87802c77-f22c-3a01-ba0c-aeada544f154</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-e50ceaee-cb0c-33ba-a85a-85dace3535b1">
+						<skos:prefLabel>formație internă-trimitere-Din-etimon atestat</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-trimitere-Din-etimon.atestat</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-e50ceaee-cb0c-33ba-a85a-85dace3535b1</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-a04d83e9-069e-3c88-aa2d-b79d9741fe26">
+						<skos:prefLabel>formație internă-trimitere-Din-etimon *</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-trimitere-Din-etimon.*</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-a04d83e9-069e-3c88-aa2d-b79d9741fe26</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-5d84e7b8-2092-3dc6-9083-656ad1a58242">
+						<skos:prefLabel>formație internă-prescurtare</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-prescurtare</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-5d84e7b8-2092-3dc6-9083-656ad1a58242</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-59ca3a81-5830-3ef4-bd1f-0f0a8aeb4b22">
+						<skos:prefLabel>formație internă-contaminare-cu un element-în care primul element este</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-contaminare-cu.un.element-în.care.primul.element.este</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-59ca3a81-5830-3ef4-bd1f-0f0a8aeb4b22</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-33ee7145-86c2-3ebb-8aa3-167a3975051a">
+						<skos:prefLabel>formație internă-contaminare-cu un element-în care unul dintre elemente este</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-contaminare-cu.un.element-în.care.unul.dintre.elemente.este</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-33ee7145-86c2-3ebb-8aa3-167a3975051a</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-46e59be5-c2c3-37dc-9be8-4fe2cdea4407">
+						<skos:prefLabel>formație internă-contaminare-cu două sau mai multe elemente</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-contaminare-cu.două.sau.mai.multe.elemente</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-46e59be5-c2c3-37dc-9be8-4fe2cdea4407</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-e250ff7f-3b7d-3f6e-9230-557af8802c72">
+						<skos:prefLabel>formație internă-calc</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-calc</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-e250ff7f-3b7d-3f6e-9230-557af8802c72</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-a118edde-dc9c-3797-a0d5-13444696f823">
+						<skos:prefLabel>formație internă-onomatopee</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-onomatopee</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-a118edde-dc9c-3797-a0d5-13444696f823</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-49c9e968-ef9d-3612-822c-842365a6321e">
+						<skos:prefLabel>formație internă-contragere</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-contragere</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-49c9e968-ef9d-3612-822c-842365a6321e</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-10235428-6e3e-3721-b568-69bbd2fcf95c">
+						<skos:prefLabel>formație internă-izolare-prin analiză din împrumuturi ca</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-izolare-prin.analiză.din.împrumuturi.ca</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-10235428-6e3e-3721-b568-69bbd2fcf95c</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-ac2728e2-709a-32e5-b97d-3be371abf735">
+						<skos:prefLabel>formație internă-izolare-prin analiză din cuvinte compuse
+							împrumutate</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-izolare-prin.analiză.din.cuvinte.compuse.împrumutate</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-ac2728e2-709a-32e5-b97d-3be371abf735</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-c9ca02b5-65e5-3fee-afb9-664d2087b133">
+						<skos:prefLabel>formație internă-izolare-din nume de localităţi</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-izolare-din.nume.de.localităţi</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-c9ca02b5-65e5-3fee-afb9-664d2087b133</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-f12c5352-8d8e-3b80-9808-46e62ec89c76">
+						<skos:prefLabel>formație internă-singular refăcut după plural</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-singular.refăcut.după.plural</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-f12c5352-8d8e-3b80-9808-46e62ec89c76</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-006e2910-ead9-3c82-b563-e65c3ea2e32f">
+						<skos:prefLabel>formație internă-formație onomatopeică</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-formație.onomatopeică</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-006e2910-ead9-3c82-b563-e65c3ea2e32f</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-8a8eb3cf-ed88-3336-99e0-d633116ec6c8">
+						<skos:prefLabel>formație internă-formație spontană de la</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-formație.spontană.de.la</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-8a8eb3cf-ed88-3336-99e0-d633116ec6c8</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-03948d14-cd6f-3f7f-a755-04ef7ab5c0b1">
+						<skos:prefLabel>formație internă-prin figură etimologică de la</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-prin.figură.etimologică.de.la</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-03948d14-cd6f-3f7f-a755-04ef7ab5c0b1</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-f78b0946-6e1e-301e-a0fb-66c3bd823f43">
+						<skos:prefLabel>formație internă-din formulă de urare</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-din.formulă.de.urare</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-f78b0946-6e1e-301e-a0fb-66c3bd823f43</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-40d66226-19a5-3c21-b6a3-bdab1785fdf9">
+						<skos:prefLabel>formație internă-format după</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-format.după</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-40d66226-19a5-3c21-b6a3-bdab1785fdf9</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-d448d387-53fb-3679-be53-670d75bb427f">
+						<skos:prefLabel>formație internă-denumire comercială</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-denumire.comercială</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-d448d387-53fb-3679-be53-670d75bb427f</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-3402a49f-804a-4b10-82a4-9f804aeb1008">
+						<skos:prefLabel>formație internă-derivat-nume propriu cu sufix</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-derivat-nume.propriu.cu.sufix</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-3402a49f-804a-4b10-82a4-9f804aeb1008</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-590751f8-fbbe-3fcf-93f4-80c5bada053d">
+						<skos:prefLabel>element extern-împrumut-etimon sigur</skos:prefLabel>
+						<skos:hiddenLabel>element.extern-împrumut-etimon.sigur</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-590751f8-fbbe-3fcf-93f4-80c5bada053d</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-2f3ac4cc-d56c-341d-b0d6-daf82fd7fc42">
+						<skos:prefLabel>etimon neatestat (reconstruit)</skos:prefLabel>
+						<skos:hiddenLabel>etimon.neatestat.(reconstruit)</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-2f3ac4cc-d56c-341d-b0d6-daf82fd7fc42</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-c7d55b3f-2064-343e-8735-b93fae4d32c9">
+						<skos:prefLabel>element extern-calc</skos:prefLabel>
+						<skos:hiddenLabel>element.extern-calc</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-c7d55b3f-2064-343e-8735-b93fae4d32c9</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-a6e75a40-dc9e-31fb-ba3a-f0fb7ed1a063">
+						<skos:prefLabel>element extern-trimitere-Cf.</skos:prefLabel>
+						<skos:hiddenLabel>element.extern-trimitere-Cf.</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-a6e75a40-dc9e-31fb-ba3a-f0fb7ed1a063</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-45a4e855-b47e-3cd9-9dad-9d08d0a81e77">
+						<skos:prefLabel>element extern-trimitere-După</skos:prefLabel>
+						<skos:hiddenLabel>element.extern-trimitere-După</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-45a4e855-b47e-3cd9-9dad-9d08d0a81e77</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-caa17496-ef9a-3298-bff4-a9a4f8a8bb24">
+						<skos:prefLabel>element necunoscut</skos:prefLabel>
+						<skos:hiddenLabel>element.necunoscut</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-caa17496-ef9a-3298-bff4-a9a4f8a8bb24</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-57bda00e-a90f-420e-bda0-0ea90f120efa">
+						<skos:prefLabel>et. nes.</skos:prefLabel>
+						<skos:hiddenLabel>et..nes.</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-57bda00e-a90f-420e-bda0-0ea90f120efa</skos:notation>
+					</skos:Concept>                  
+                  
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-8be22361-7980-349f-b01f-fcd694732925">
+						<skos:prefLabel>loc lat.</skos:prefLabel>
+						<skos:hiddenLabel>loc.lat.</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-8be22361-7980-349f-b01f-fcd694732925</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-24e368f5-2274-3687-957f-03f3119c6fb2">
+						<skos:prefLabel>cuvânt internațional</skos:prefLabel>
+						<skos:hiddenLabel>cuvânt.internațional</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-24e368f5-2274-3687-957f-03f3119c6fb2</skos:notation>
+					</skos:Concept>	
+				</skos:memberList>
+			</skos:OrderedCollection>
+			<skos:OrderedCollection rdf:about="http://lingv.ro/ontology/etymology/types/sense">
+				<rdfs:label>Tipuri de etimologii pentru sensuri</rdfs:label>
+				<skos:memberList rdf:parseType="Collection">
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-30b4d3e3-807a-4a72-b4d3-e3807a4a7258">
+						<skos:prefLabel>element extern-împrumut-etimon sigur</skos:prefLabel>
+						<skos:hiddenLabel>element.extern-împrumut-etimon.sigur</skos:hiddenLabel>
+						<skos:example/>
+						<skos:notation>uuid-30b4d3e3-807a-4a72-b4d3-e3807a4a7258</skos:notation>
+					</skos:Concept>				
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-e4040f32-9b24-38ac-87c5-e43887ef8d25">
+						<skos:prefLabel>
+							unul sau mai multe sensuri-explicarea sensului-cf. izvor
+						</skos:prefLabel>
+						<skos:hiddenLabel>
+							unul.sau.mai.multe.sensuri-explicarea.sensului-cf..izvor
+						</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-e4040f32-9b24-38ac-87c5-e43887ef8d25</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-ff4707db-2151-3917-8d71-547ad082913e">
+						<skos:prefLabel>unul sau mai multe sensuri-sensul-cf. etimon
+						</skos:prefLabel>
+						<skos:hiddenLabel>unul.sau.mai.multe.sensuri-sensul-cf..etimon
+						</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-ff4707db-2151-3917-8d71-547ad082913e</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-7544d263-a89d-3050-8bdf-6d61fb5d0436">
+						<skos:prefLabel>unul sau mai multe sensuri-sensul-cf. și etimon
+						</skos:prefLabel>
+						<skos:hiddenLabel>unul.sau.mai.multe.sensuri-sensul-cf..și.etimon
+						</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-7544d263-a89d-3050-8bdf-6d61fb5d0436</skos:notation>
+					</skos:Concept>
+				</skos:memberList>
+			</skos:OrderedCollection>
+			<skos:OrderedCollection rdf:about="http://lingv.ro/ontology/etymology/types/variant">
+				<rdfs:label>Tipuri de etimologii pentru variante</rdfs:label>
+				<skos:memberList rdf:parseType="Collection">
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-420dd8b6-70bc-305a-b0ea-e5e80f64ea41">
+						<skos:prefLabel>variantă-directă-etimon variantă-prin hiperurbanism</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-etimon.variantă-prin.hiperurbanism</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-420dd8b6-70bc-305a-b0ea-e5e80f64ea41</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-8d008f25-9ab5-3f0c-ad55-2482ee10f5b3">
+						<skos:prefLabel>variantă-directă-etimon variantă-atestat</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-etimon.variantă-atestat</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-8d008f25-9ab5-3f0c-ad55-2482ee10f5b3</skos:notation>
+					</skos:Concept>                    
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-3e32e78a-b4e3-3e4c-95b9-886cb04dc51a">
+						<skos:prefLabel>variantă-directă-etimon variantă-reconstruit</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-etimon.variantă-reconstruit</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-3e32e78a-b4e3-3e4c-95b9-886cb04dc51a</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-c94de8f7-ca81-4e56-8de8-f7ca812e5613">
+						<skos:prefLabel>variantă-directă-etimon.variantă-cu românizarea sufixului</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-etimon.variantă-cu.românizarea.sufixului</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-c94de8f7-ca81-4e56-8de8-f7ca812e5613</skos:notation>
+					</skos:Concept>                    
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-6689b429-6eb4-44cb-89b4-296eb4d4cb57">
+						<skos:prefLabel>variantă-directă-etimon.variantă-din etimon intern</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-etimon.variantă-din.etimon.intern</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-6689b429-6eb4-44cb-89b4-296eb4d4cb57</skos:notation>
+					</skos:Concept>                     
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-2f9e8bbb-dea1-36c6-9653-77f46bd48e31">
+						<skos:prefLabel>variantă-directă-sg refăcut după plural</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-sg..refăcut.după.plural</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-2f9e8bbb-dea1-36c6-9653-77f46bd48e31</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-3dba8396-36a5-36d8-b2bc-0c8ab758a353">
+						<skos:prefLabel>variantă-directă-singular refăcut după pluralul</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-singular.refăcut.după.pluralul</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-3dba8396-36a5-36d8-b2bc-0c8ab758a353</skos:notation>
+					</skos:Concept>
+					<skos:Concept rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-2fff5b85-747f-3592-b029-6dc3afeb483e">
+						<skos:prefLabel>variantă-directă-prin etimologie populară</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-prin.etimologie.populară</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-2fff5b85-747f-3592-b029-6dc3afeb483e</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-2a661a74-dca6-35d8-b82f-9830ce5c3768">
+						<skos:prefLabel>variantă-directă-prin accidente fonetice-afereză</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-prin.accidente.fonetice-afereză</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-2a661a74-dca6-35d8-b82f-9830ce5c3768</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-f6dce791-58bc-3117-a4ac-20d8cfb0129f">
+						<skos:prefLabel>variantă-directă-prin accidente fonetice-proteză</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-prin.accidente.fonetice-proteză</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-f6dce791-58bc-3117-a4ac-20d8cfb0129f</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-0b8dc607-ca48-361c-b2d3-708f40ab1788">
+						<skos:prefLabel>variantă-directă-prin accidente fonetice-sincopă</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-prin.accidente.fonetice-sincopă</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-0b8dc607-ca48-361c-b2d3-708f40ab1788</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-97c3e623-4c33-3ab5-af32-f9a79a1f86b6">
+						<skos:prefLabel>variantă-directă-prin accidente fonetice-epenteză</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-prin.accidente.fonetice-epenteză</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-97c3e623-4c33-3ab5-af32-f9a79a1f86b6</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-9e2e8130-72f1-302c-bf37-9bc11ccfa1ba">
+						<skos:prefLabel>variantă-directă-prin accidente fonetice-anaptixă</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-prin.accidente.fonetice-anaptixă</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-9e2e8130-72f1-302c-bf37-9bc11ccfa1ba</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-d4de942b-e4df-3d14-b332-e28000a189fa">
+						<skos:prefLabel>variantă-directă-prin accidente fonetice-apocopă</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-prin.accidente.fonetice-apocopă</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-d4de942b-e4df-3d14-b332-e28000a189fa</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-98721825-99ca-37da-98e9-2eda217faab2">
+						<skos:prefLabel>variantă-directă-prin accidente fonetice-elidare</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-prin.accidente.fonetice-elidare</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-98721825-99ca-37da-98e9-2eda217faab2</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-88eb65a0-0816-3c10-98d9-c2368ec86687">
+						<skos:prefLabel>variantă-directă-prin accidente fonetice-metateză</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-prin.accidente.fonetice-metateză</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-88eb65a0-0816-3c10-98d9-c2368ec86687</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-ff035fe8-7401-3d71-95ae-e33ae9b6563f">
+						<skos:prefLabel>variantă-directă-prin accidente fonetice-propagare</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-prin.accidente.fonetice-propagare</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-ff035fe8-7401-3d71-95ae-e33ae9b6563f</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-96b0c461-0cff-3798-821c-909e94a2063b">
+						<skos:prefLabel>variantă-directă-prin accidente fonetice-sinereză</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-prin.accidente.fonetice-sinereză</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-96b0c461-0cff-3798-821c-909e94a2063b</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-edf13487-3a07-3be8-8328-bd9a6dbf0cd6">
+						<skos:prefLabel>variantă-directă-prin apropiere de</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-prin.apropiere.de</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-edf13487-3a07-3be8-8328-bd9a6dbf0cd6</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-97c3e134-6841-3878-aa2b-11d25585e347">
+						<skos:prefLabel>variantă-directă-cu schimbare de suf.</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-cu.schimbare.de.suf.</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-97c3e134-6841-3878-aa2b-11d25585e347</skos:notation>
+					</skos:Concept>
+					<skos:Concept rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-d30c5024-ac01-39cb-9941-1ea9df5b013f">
+						<skos:prefLabel>variantă-directă-sub influența</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-sub.influența</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-d30c5024-ac01-39cb-9941-1ea9df5b013f</skos:notation>
+					</skos:Concept>
+					<skos:Concept rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-0b1fe058-e880-418a-9fe0-58e880518a20">
+						<skos:prefLabel>variantă-directă-sub influența.etimon extern</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-sub.influența.etimon.extern</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-0b1fe058-e880-418a-9fe0-58e880518a20</skos:notation>
+					</skos:Concept>          
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-380fad9c-89e7-3f3c-bd7d-16467e224978">
+						<skos:prefLabel>variantă-directă-refăcut după forma articulată</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-refăcut.după.forma.articulată</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-380fad9c-89e7-3f3c-bd7d-16467e224978</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-596d77b1-aec5-3f4f-936e-d8f356ce71bb">
+						<skos:prefLabel>variantă-directă-refăcut după sg art.</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-refăcut.după.sg..art.</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-596d77b1-aec5-3f4f-936e-d8f356ce71bb</skos:notation>
+					</skos:Concept>
+					<skos:Concept rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-a071441f-8765-3dd4-962e-8382e541e854">
+						<skos:prefLabel>variantă-directă-etimologie populară prin apropiere de</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-etimologie.populară.prin.apropiere.de</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-a071441f-8765-3dd4-962e-8382e541e854</skos:notation>
+					</skos:Concept>
+					<skos:Concept rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-24a73d90-77e6-32fd-a710-161385701858">
+						<skos:prefLabel>variantă-directă-din lat.</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-din.lat.</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-24a73d90-77e6-32fd-a710-161385701858</skos:notation>
+					</skos:Concept>
+					<skos:Concept rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-e6892161-710c-30ce-9840-a83bd694358c">
+						<skos:prefLabel>variantă-directă-derivat regresiv de la</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-derivat.regresiv.de.la</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-e6892161-710c-30ce-9840-a83bd694358c</skos:notation>
+					</skos:Concept>
+					<skos:Concept rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-76c4df78-b03e-31c7-9d0b-0e85512e9cb5">
+						<skos:prefLabel>variantă-directă-prin confuzie cu</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-prin.confuzie.cu</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-76c4df78-b03e-31c7-9d0b-0e85512e9cb5</skos:notation>
+					</skos:Concept>
+					<skos:Concept rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-494e181d-ec9a-45df-8e18-1dec9a65df79">
+						<skos:prefLabel>variantă-directă-latinizat după</skos:prefLabel>
+						<skos:hiddenLabel>variantă-directă-latinizat.după</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-494e181d-ec9a-45df-8e18-1dec9a65df79</skos:notation>
+					</skos:Concept>                    
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-3eeb3587-4688-31e1-ad3d-af20861bcf5c">
+						<skos:prefLabel>una sau mai multe variante lexicale-variantă-trimitere-cf. cuvânt</skos:prefLabel>
+						<skos:hiddenLabel>una.sau.mai.multe.variante.lexicale-variantă-trimitere-cf..cuvânt</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-3eeb3587-4688-31e1-ad3d-af20861bcf5c</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-365ec8f7-4faf-3837-a3ff-30208ae1cbb9">
+						<skos:prefLabel>una sau mai multe variante lexicale-variantă-trimitere-cf. izvor</skos:prefLabel>
+						<skos:hiddenLabel>una.sau.mai.multe.variante.lexicale-variantă-trimitere-cf..izvor</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-365ec8f7-4faf-3837-a3ff-30208ae1cbb9</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-250cf183-0ce7-3829-950a-887e4f76b0bc">
+						<skos:prefLabel>una sau mai multe variante lexicale-variante cu-trimitere-cf. cuvânt</skos:prefLabel>
+						<skos:hiddenLabel>una.sau.mai.multe.variante.lexicale-variante.cu-trimitere-cf..cuvânt</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-250cf183-0ce7-3829-950a-887e4f76b0bc</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-bd04bfa8-ae71-3304-9a6f-e91e9e338e2a">
+						<skos:prefLabel>una sau mai multe variante lexicale-variante cu-trimitere-cf. izvor</skos:prefLabel>
+						<skos:hiddenLabel>una.sau.mai.multe.variante.lexicale-variante.cu-trimitere-cf..izvor</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-bd04bfa8-ae71-3304-9a6f-e91e9e338e2a</skos:notation>
+					</skos:Concept>
+					<skos:Concept
+						rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-5d24d891-604e-3ee2-be2c-75e5e390f5ae">
+						<skos:prefLabel>una sau mai multe variante lexicale-variante de tipul-trimitere-cf. cuvânt</skos:prefLabel>
+						<skos:hiddenLabel>una.sau.mai.multe.variante.lexicale-variante.de.tipul-trimitere-cf..cuvânt</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-5d24d891-604e-3ee2-be2c-75e5e390f5ae</skos:notation>
+					</skos:Concept>
+					<skos:Concept rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-1d07aff0-fb3b-37b2-b67f-0ba652fd8c87">
+						<skos:prefLabel>una sau mai multe variante lexicale-variante de tipul-trimitere-cf. izvor</skos:prefLabel>
+						<skos:hiddenLabel>una.sau.mai.multe.variante.lexicale-variante.de.tipul-trimitere-cf..izvor</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-1d07aff0-fb3b-37b2-b67f-0ba652fd8c87</skos:notation>
+					</skos:Concept>
+					<skos:Concept rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-bf9e2a23-46b0-445a-9e2a-2346b0c45a24">
+						<skos:prefLabel>formație.internă-derivat-cu.prefix</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-derivat-cu.prefix</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-bf9e2a23-46b0-445a-9e2a-2346b0c45a24</skos:notation>
+					</skos:Concept>
+					<skos:Concept rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-f22cb727-2edb-42f1-acb7-272edbb2f1c7">
+						<skos:prefLabel>formație.internă-derivat-cu.sufix</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-derivat-cu.sufix</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-f22cb727-2edb-42f1-acb7-272edbb2f1c7</skos:notation>
+					</skos:Concept>
+					<skos:Concept rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-cd7810b8-66be-40b1-b810-b866be80b181">
+						<skos:prefLabel>formație.internă-derivat-cu.prefix.şi.sufix</skos:prefLabel>
+						<skos:hiddenLabel>formație.internă-derivat-cu.prefix.şi.sufix</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-cd7810b8-66be-40b1-b810-b866be80b181</skos:notation>
+					</skos:Concept>     
+				</skos:memberList>
+			</skos:OrderedCollection>
+			<skos:OrderedCollection rdf:about="http://lingv.ro/ontology/etymology/types/semantic-unit">
+				<rdfs:label>Tipuri de etimologii pentru unități semantice subsumate</rdfs:label>
+				<skos:memberList rdf:parseType="Collection">
+					<skos:Concept rdf:about="http://lingv.ro/ontology/etymology/types/#uuid-7e86d58b-f6e2-4fd0-86d5-8bf6e26fd08d">
+						<skos:prefLabel>element extern-împrumut-etimon sigur</skos:prefLabel>
+						<skos:hiddenLabel>element.extern-împrumut-etimon.sigur</skos:hiddenLabel>
+						<skos:example />
+						<skos:notation>uuid-7e86d58b-f6e2-4fd0-86d5-8bf6e26fd08d</skos:notation>
+					</skos:Concept>
+				</skos:memberList>
+			</skos:OrderedCollection>
+		</skos:memberList>
+	</skos:OrderedCollection>
+</rdf:RDF>

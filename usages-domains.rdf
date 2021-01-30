@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	<skos:OrderedCollection rdf:about="http://lingv.ro/ontology/usages/domains">
+		<rdfs:label>Domenii ale indicațiilor de folosire</rdfs:label>
+		<skos:memberList rdf:parseType="Collection">
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/usages/domains/#uuid-ad0fec53-2734-34a6-824e-f4e95ec450c7">
+				<skos:prefLabel>geografic</skos:prefLabel>
+				<skos:altLabel />
+				<skos:hiddenLabel>geo</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-ad0fec53-2734-34a6-824e-f4e95ec450c7</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/usages/domains/#uuid-3f09358f-cd6e-35af-86e8-0c59e9e0a0ea">
+				<skos:prefLabel>temporal</skos:prefLabel>
+				<skos:altLabel />
+				<skos:hiddenLabel>time</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-3f09358f-cd6e-35af-86e8-0c59e9e0a0ea</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/usages/domains/#uuid-60c7836a-bed9-3e2c-be5d-9bd8f155442d">
+				<skos:prefLabel>domeniu</skos:prefLabel>
+				<skos:altLabel />
+				<skos:hiddenLabel>dom</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-60c7836a-bed9-3e2c-be5d-9bd8f155442d</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/usages/domains/#uuid-4eb8de8c-3ff0-349a-90be-71926f21393a">
+				<skos:prefLabel>registru / stil</skos:prefLabel>
+				<skos:altLabel />
+				<skos:hiddenLabel>register style</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-4eb8de8c-3ff0-349a-90be-71926f21393a</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/usages/domains/#uuid-d9695e84-01eb-3836-9987-d29a8d30491f">
+				<skos:prefLabel>limba de origine</skos:prefLabel>
+				<skos:altLabel />
+				<skos:hiddenLabel>lang</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-d9695e84-01eb-3836-9987-d29a8d30491f</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/usages/domains/#uuid-854a6152-9c39-37b8-bf1a-4e928bd74e2c">
+				<skos:prefLabel>gramatical</skos:prefLabel>
+				<skos:altLabel />
+				<skos:hiddenLabel>gram</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-854a6152-9c39-37b8-bf1a-4e928bd74e2c</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/usages/domains/#uuid-ec3b66bb-0396-3851-821e-bfff4e0ab297">
+				<skos:prefLabel>neclasificat</skos:prefLabel>
+				<skos:altLabel />
+				<skos:hiddenLabel>hint</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-ec3b66bb-0396-3851-821e-bfff4e0ab297</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/usages/domains/#uuid-2e73f82b-6477-3b04-beaa-2c2c210a9d3e">
+				<skos:prefLabel>colocație</skos:prefLabel>
+				<skos:altLabel />
+				<skos:hiddenLabel>coloc</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-2e73f82b-6477-3b04-beaa-2c2c210a9d3e</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/usages/domains/#uuid-c073ebad-6213-3005-8371-2e19f8b4ccf8">
+				<skos:prefLabel>semantic</skos:prefLabel>
+				<skos:altLabel />
+				<skos:hiddenLabel>sem</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-c073ebad-6213-3005-8371-2e19f8b4ccf8</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/usages/domains/#uuid-2fc21102-0294-310f-9a2c-d57a0cab12d4">
+				<skos:prefLabel>frecvență</skos:prefLabel>
+				<skos:altLabel />
+				<skos:hiddenLabel>plev</skos:hiddenLabel>
+				<skos:example />
+				<skos:notation>uuid-2fc21102-0294-310f-9a2c-d57a0cab12d4</skos:notation>
+			</skos:Concept>
+		</skos:memberList>
+	</skos:OrderedCollection>
+</rdf:RDF>

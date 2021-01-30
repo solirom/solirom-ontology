@@ -1,0 +1,452 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	<skos:OrderedCollection rdf:about="http://lingv.ro/ontology/etymology/note/types">
+		<rdfs:label>Tipuri de note etimologice</rdfs:label>
+		<skos:memberList rdf:parseType="Collection">
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-3da5e0a5-9c68-3bb8-b68a-69151380ca62">
+				<skos:prefLabel>traducere etimon</skos:prefLabel>
+				<skos:example>(delete nodes child::*, insert nodes ($dlr:term-template, $dlr:term-template) as first into .)</skos:example>
+				<skos:notation>uuid-3da5e0a5-9c68-3bb8-b68a-69151380ca62</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-450e4af3-9749-3ed8-9bd0-b8a53c30a8a0">
+				<skos:prefLabel>traducere cuvânt bază</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-450e4af3-9749-3ed8-9bd0-b8a53c30a8a0</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-902f43fb-e389-301a-a600-ceccc79c0fba">
+				<skos:prefLabel>explicații etimon-apropiat de cuv. rom. terminate în</skos:prefLabel>
+				<skos:example>(delete nodes child::*, insert node $dlr:term-template as first into .)</skos:example>
+				<skos:notation>uuid-902f43fb-e389-301a-a600-ceccc79c0fba</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-37477f7b-3f36-3d2a-a88b-1f2ce330f308">
+				<skos:prefLabel>explicații etimon-diminutiv al lui</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-37477f7b-3f36-3d2a-a88b-1f2ce330f308</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-bb09101a-fcf2-363c-bb21-c8954e57aa0a">
+				<skos:prefLabel>explicații etimon-cu schimbare de suf.</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-bb09101a-fcf2-363c-bb21-c8954e57aa0a</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-ee9b3d86-7185-399f-ab09-d1e61ab80438">
+				<skos:prefLabel>explicații etimon-prin accidente fonetice-afereză</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-ee9b3d86-7185-399f-ab09-d1e61ab80438</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-e13ce369-78b1-3cad-bc10-6f22d3a8546f">
+				<skos:prefLabel>explicații etimon-prin accidente fonetice-anaptixă</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-e13ce369-78b1-3cad-bc10-6f22d3a8546f</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-665b52c0-3087-3017-97c2-e9d04bd9de27">
+				<skos:prefLabel>explicații etimon-prin accidente fonetice-apocopă</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-665b52c0-3087-3017-97c2-e9d04bd9de27</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-9e00f066-c5f7-3732-988c-e59eabcc47c3">
+				<skos:prefLabel>explicații etimon-prin accidente fonetice-elidare</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-9e00f066-c5f7-3732-988c-e59eabcc47c3</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-8f03b071-1888-3d3e-a603-6872a08f6895">
+				<skos:prefLabel>explicații etimon-prin accidente fonetice-epenteză</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-8f03b071-1888-3d3e-a603-6872a08f6895</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-0d1896fb-1ead-3a4d-b228-9745b9f8ba45">
+				<skos:prefLabel>explicații etimon-prin accidente fonetice-metateză</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-0d1896fb-1ead-3a4d-b228-9745b9f8ba45</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-bcaea0c4-741b-35f1-bad6-49babb875a9d">
+				<skos:prefLabel>explicații etimon-prin accidente fonetice-propagare</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-bcaea0c4-741b-35f1-bad6-49babb875a9d</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-53593730-277d-3c9a-a772-6434bd950d89">
+				<skos:prefLabel>explicații etimon-prin accidente fonetice-proteză</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-53593730-277d-3c9a-a772-6434bd950d89</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-44d702f4-e2dc-33b8-8fdc-5161f0109729">
+				<skos:prefLabel>explicații etimon-prin accidente fonetice-sincopă</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-44d702f4-e2dc-33b8-8fdc-5161f0109729</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-82d6d636-35ef-37ad-b669-f06ea1753559">
+				<skos:prefLabel>explicații etimon-prin accidente fonetice-sinereză</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-82d6d636-35ef-37ad-b669-f06ea1753559</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-88d2379f-a6f3-3929-98b7-3da0a3d42ac0">
+				<skos:prefLabel>explicații etimon-prin apropiere de</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-88d2379f-a6f3-3929-98b7-3da0a3d42ac0</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-a83b37ff-0b5c-3b88-a320-3e89fdc727b5">
+				<skos:prefLabel>explicații etimon-prin analogie cu</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-a83b37ff-0b5c-3b88-a320-3e89fdc727b5</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-621d85fc-59f6-3b4f-9202-ee01ff086ef7">
+				<skos:prefLabel>explicații etimon-prin contaminare cu</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-621d85fc-59f6-3b4f-9202-ee01ff086ef7</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-a863aae7-47d7-379f-ba70-3c7e1093f37d">
+				<skos:prefLabel>explicații etimon-după modelul</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-a863aae7-47d7-379f-ba70-3c7e1093f37d</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-9c9f5252-29a9-3140-9337-248f503ea0ea">
+				<skos:prefLabel>explicații etimon-după modelul lui</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-9c9f5252-29a9-3140-9337-248f503ea0ea</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-91816508-86cf-3ff9-a3c8-7ba717639c3d">
+				<skos:prefLabel>explicații etimon-variantă a lui</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-91816508-86cf-3ff9-a3c8-7ba717639c3d</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-fc18fa0f-3d89-333b-8e6c-be0fdf82a31d">
+				<skos:prefLabel>explicații etimon-prin falsă analiză</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-fc18fa0f-3d89-333b-8e6c-be0fdf82a31d</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-e51f5498-a8d8-3907-81da-95ea24cf5396">
+				<skos:prefLabel>explicații etimon-refăcut după</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-e51f5498-a8d8-3907-81da-95ea24cf5396</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-48bf2fe1-fea2-318f-ad80-2a950def2744">
+				<skos:prefLabel>explicații etimon-adaptat după</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-48bf2fe1-fea2-318f-ad80-2a950def2744</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-59a931cf-71d4-3190-9005-3dcd31ef5ae8">
+				<skos:prefLabel>explicații etimon-din latina clasică pentru et. *</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-59a931cf-71d4-3190-9005-3dcd31ef5ae8</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-884af359-01dd-3a9c-83ed-47decfb952dc">
+				<skos:prefLabel>explicații etimon-cuvânt din care provine etimonul- atestat pentru et. *</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-884af359-01dd-3a9c-83ed-47decfb952dc</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-4f0ee30e-9584-368f-b42d-f638ea987e7d">
+				<skos:prefLabel>explicații etimon-pentru explicarea formei româneşti</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-4f0ee30e-9584-368f-b42d-f638ea987e7d</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-03c7a10b-f531-3003-ae93-7cdc4d2e3c29">
+				<skos:prefLabel>explicații etimon-după</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-03c7a10b-f531-3003-ae93-7cdc4d2e3c29</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-691bd716-15c8-3e7f-a65a-3913e069704e">
+				<skos:prefLabel>explicații etimon-prin filieră</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-691bd716-15c8-3e7f-a65a-3913e069704e</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-3f710ecc-95a9-340c-a590-95d5df3579ff">
+				<skos:prefLabel>explicații etimon-cu reduplicarea consoanei</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-3f710ecc-95a9-340c-a590-95d5df3579ff</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-0f858857-7617-32cb-ba46-c55260b89aa3">
+				<skos:prefLabel>explicații etimon-imper. lui</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-0f858857-7617-32cb-ba46-c55260b89aa3</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-5523b5f5-56d7-3d73-9cea-ffd90a583511">
+				<skos:prefLabel>explicații etimon-aor. lui</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-5523b5f5-56d7-3d73-9cea-ffd90a583511</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-ad3bc6bb-3be4-33ff-9344-12086fccd869">
+				<skos:prefLabel>explicații etimon-voc. lui</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-ad3bc6bb-3be4-33ff-9344-12086fccd869</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-1783f802-4a10-3750-b66a-9a9275a61560">
+				<skos:prefLabel>explicații etimon-pl. lui</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-1783f802-4a10-3750-b66a-9a9275a61560</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-8e12df0b-3244-3bb7-9db9-3f976a5d1454">
+				<skos:prefLabel>explicații etimon-acuz.</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-8e12df0b-3244-3bb7-9db9-3f976a5d1454</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-bf82a126-1e54-3766-aa59-af0085ccd638">
+				<skos:prefLabel>explicații etimon-la scriitorii mai vechi din</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-bf82a126-1e54-3766-aa59-af0085ccd638</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-cabef37d-3a62-3896-95c8-4ca1d0571ec2">
+				<skos:prefLabel>explicații etimon-sub influența lui</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-cabef37d-3a62-3896-95c8-4ca1d0571ec2</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-fdc6694a-aa47-3abe-914b-d6d2c68188b2">
+				<skos:prefLabel>explicații etimon-dial.</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-fdc6694a-aa47-3abe-914b-d6d2c68188b2</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-2204861a-1908-3842-9e0e-a23bde160835">
+				<skos:prefLabel>explicații etimon-prin reduplicare</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-2204861a-1908-3842-9e0e-a23bde160835</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-18c8dde4-8637-360e-a5ce-bed3782ec8bf">
+				<skos:prefLabel>explicații etimon-part. lui</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-18c8dde4-8637-360e-a5ce-bed3782ec8bf</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-96d499dc-8eab-3f43-a985-49baabc623be">
+				<skos:prefLabel>explicații etimon-prin apropiere de cuv. formate cu suf.</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-96d499dc-8eab-3f43-a985-49baabc623be</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-1ed81e29-8140-3c1a-9413-9edb502da14a">
+				<skos:prefLabel>explicații etimon-prin analogie cu cuvinte de origine</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-1ed81e29-8140-3c1a-9413-9edb502da14a</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-63124564-6adc-3499-b29f-0300f8a4c9c4">
+				<skos:prefLabel>explicații etimon-prin analogie cu cuvinte de tipul</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-63124564-6adc-3499-b29f-0300f8a4c9c4</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-b4ef13cd-48d3-3ca5-aa91-4b116a97ff2b">
+				<skos:prefLabel>explicații etimon-prin etimologie populară</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-b4ef13cd-48d3-3ca5-aa91-4b116a97ff2b</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-b8dfaa01-f3ee-3932-92ec-2e71b8f7815d">
+				<skos:prefLabel>explicații etimon-s. pr.</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-b8dfaa01-f3ee-3932-92ec-2e71b8f7815d</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-582d4b93-054d-3e91-96cf-a06503cb0be9">
+				<skos:prefLabel>explicații etimon-numele științific al</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-582d4b93-054d-3e91-96cf-a06503cb0be9</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-f917f891-d45c-3e99-817c-6dc841699f08">
+				<skos:prefLabel>explicații etimon-la</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-f917f891-d45c-3e99-817c-6dc841699f08</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-400e13bd-d41b-39bf-8fc5-51d171034902">
+				<skos:prefLabel>explicații etimon-mai vechi</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-400e13bd-d41b-39bf-8fc5-51d171034902</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-537f83b4-4279-32c1-baa6-d3b01d7e22d7">
+				<skos:prefLabel>explicații etimon-var. a lui</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-537f83b4-4279-32c1-baa6-d3b01d7e22d7</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-bce9f1cb-b3f8-33a7-b14d-b7157b301111">
+				<skos:prefLabel>explicații etimon-de la s. pr.</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-bce9f1cb-b3f8-33a7-b14d-b7157b301111</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-9a812db9-0134-3199-ab1b-cf0241f3c0e6">
+				<skos:prefLabel>explicații etimon-în rom.</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-9a812db9-0134-3199-ab1b-cf0241f3c0e6</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-e70ea0d7-5d49-36a8-8f78-7b83a6700c95">
+				<skos:prefLabel>explicații etimon-sg. refăcut după pl.</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-e70ea0d7-5d49-36a8-8f78-7b83a6700c95</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-bd351e5b-fa6f-398e-9fac-d9ef842fd299">
+				<skos:prefLabel>explicații etimon-numele topic</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-bd351e5b-fa6f-398e-9fac-d9ef842fd299</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-bd054c7f-f232-34a6-ad8b-d59cb0fc5645">
+				<skos:prefLabel>explicații etimon-contaminare în care primul element este</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-bd054c7f-f232-34a6-ad8b-d59cb0fc5645</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-bbc29f17-a728-3ebb-931d-56249488fb3d">
+				<skos:prefLabel>explicații etimon-contaminare între ... și ...</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-bbc29f17-a728-3ebb-931d-56249488fb3d</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-7460d240-9ea8-35a3-befe-d6a08e162a3e">
+				<skos:prefLabel>explicații etimon-f. lui</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-7460d240-9ea8-35a3-befe-d6a08e162a3e</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-47b30d86-ac8d-37ed-ad7d-046fb434232e">
+				<skos:prefLabel>explicații etimon-numele ştiințific al plantei</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-47b30d86-ac8d-37ed-ad7d-046fb434232e</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-0db38935-2139-3cf4-8689-fc3efff0eed0">
+				<skos:prefLabel>explicații etimon-n. pr.</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-0db38935-2139-3cf4-8689-fc3efff0eed0</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-2ddb8204-ca58-37e8-ba3c-2012972ae4e7">
+				<skos:prefLabel>explicații etimon-numele de localitate</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-2ddb8204-ca58-37e8-ba3c-2012972ae4e7</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-c5e56f21-1897-3d39-8536-004cc47ba833">
+				<skos:prefLabel>explicații etimon-numele sărbătorii religioase</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-c5e56f21-1897-3d39-8536-004cc47ba833</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-c7e8d913-ee1f-30c5-9d70-402da52ac9b7">
+				<skos:prefLabel>explicații etimon-numele ştiințific al planetei</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-c7e8d913-ee1f-30c5-9d70-402da52ac9b7</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-7288b2ee-d9be-34d3-aede-6a7e0dbe9550">
+				<skos:prefLabel>explicații etimon-pentru explicarea formei românești cf.</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-7288b2ee-d9be-34d3-aede-6a7e0dbe9550</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-3ab6022d-648f-3ae0-85c3-6d8910d5dc95">
+				<skos:prefLabel>explicații etimon-prez. ind.</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-3ab6022d-648f-3ae0-85c3-6d8910d5dc95</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-c2e64e06-d14b-308e-8802-5104b95b860f">
+				<skos:prefLabel>explicații etimon-prin înlocuirea lui ... cu ...</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-c2e64e06-d14b-308e-8802-5104b95b860f</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-0a31c9cc-4252-355e-87cc-e1ca516dacdb">
+				<skos:prefLabel>explicații etimon-prin.analogie cu cuvinte de origine ... de tipul ...</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-0a31c9cc-4252-355e-87cc-e1ca516dacdb</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-2b306e9d-6f58-3089-b273-03c4c9180af3">
+				<skos:prefLabel>explicații etimon-prin confuzie cu</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-2b306e9d-6f58-3089-b273-03c4c9180af3</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-9d0f4561-7312-3d4c-8db5-119c6a852071">
+				<skos:prefLabel>trimitere (cf.)</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-9d0f4561-7312-3d4c-8db5-119c6a852071</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-06c1a37f-bd24-3e45-ab93-02147fcebe5d">
+				<skos:prefLabel>trimitere intrare</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-06c1a37f-bd24-3e45-ab93-02147fcebe5d</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-dee348f1-d8b7-387d-bb51-5dfabfb1dd99">
+				<skos:prefLabel>nume propriu</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-dee348f1-d8b7-387d-bb51-5dfabfb1dd99</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-b4425bbf-0290-347d-ab8d-b67296551061">
+				<skos:prefLabel>indicații gramaticale</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-b4425bbf-0290-347d-ab8d-b67296551061</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-7660b929-371a-3e2f-a37d-d07fe9f12fa5">
+				<skos:prefLabel>indicație folosire</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-7660b929-371a-3e2f-a37d-d07fe9f12fa5</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-95ca6e84-4012-39cf-86f3-eb258bd93fcb">
+				<skos:prefLabel>model etimon</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-95ca6e84-4012-39cf-86f3-eb258bd93fcb</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-c23988ce-0a96-34e3-82fb-a07af5058502">
+				<skos:prefLabel>izvor</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-c23988ce-0a96-34e3-82fb-a07af5058502</skos:notation>
+			</skos:Concept>
+			<skos:Concept
+				rdf:about="http://lingv.ro/ontology/etymology/note/types/#uuid-8749f46d-f471-39bf-83c4-5087c8500ab5">
+				<skos:prefLabel>note suplimentare</skos:prefLabel>
+				<skos:example>(delete nodes child::*)</skos:example>
+				<skos:notation>uuid-8749f46d-f471-39bf-83c4-5087c8500ab5</skos:notation>
+			</skos:Concept>
+		</skos:memberList>
+	</skos:OrderedCollection>
+</rdf:RDF>

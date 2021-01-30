@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:org="http://www.w3.org/ns/org#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:owl="http://www.w3.org/2002/07/owl#">
+
+	<owl:Ontology rdf:about="http://lingv.ro/ontology/linguistic-institute-of-romanian-academy.owl">
+		<owl:versionInfo>0.1</owl:versionInfo>
+		<owl:imports rdf:resource="http://www.w3.org/ns/org" />
+		<owl:imports rdf:resource="http://xmlns.com/foaf/0.1/" />
+	</owl:Ontology>
+
+	<org:FormalOrganization
+		rdf:about="http://data.gov.ro/ontology/organization-type/research-institute/ilir">
+		<rdfs:label rdf:datatype="&xsd;string">Comune di Catania</rdfs:label>
+		<org:hasUnit rdf:resource="&cct;gabinetto_sindaco" />
+		<org:hasUnit rdf:resource="&cct;polizia_municipale" />
+		<org:hasUnit rdf:resource="&cct;direzione_affari_legali" />
+		<org:hasUnit>
+			<org:OrganizationalUnit rdf:about="&cct;area1">
+				<rdfs:label rdf:datatype="&xsd;string">Prima Area di Coordinamento</rdfs:label>
+				<org:hasUnit rdf:resource="&cct;direzione_lavori_pubblici_protezione_civile" />
+				<org:hasUnit rdf:resource="&cct;direzione_manutenzione_servizi_tecnici" />
+				<org:hasUnit rdf:resource="&cct;direzione_ecologia_ambiente_nu" />
+				<org:hasUnit rdf:resource="&cct;direzione_politiche_sociali_famiglia" />
+				<org:hasUnit rdf:resource="&cct;direzione_istruzione_sport_pari_opportunita" />
+				<org:hasUnit rdf:resource="&cct;direzione_risorse_umane_controllo_gestione" />
+			</org:OrganizationalUnit>
+		</org:hasUnit>
+	</org:FormalOrganization>
+
+	<rdf:Description rdf:about="http://lingv.ro/">
+		<rdf:type rdf:resource="http://acad.ro/ontology/unit-types/research-institute" />
+		<org:classification rdf:resource="http://data.gov.ro/organization-type/research-institute" />
+		<skos:prefLabel xml:lang="ro">Institutul de Lingvistică al Academiei Române „Iorgu Iordan – Al. Rosetti”
+		</skos:prefLabel>
+		<org:hasUnit rdf:resource="http://lingv.ro/ontology/units/lexicography-and-lexicology/" />
+	</rdf:Description>
+	<org:Role rdf:resource="http://lingv.ro/ontology/dlr-redactor" />
+	<org:Role rdf:resource="http://lingv.ro/ontology/dlr-editor" />
+</rdf:RDF>

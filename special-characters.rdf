@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	<skos:OrderedCollection rdf:about="http://lingv.ro/ontology/special-characters">
+		<rdfs:label>Caractere speciale</rdfs:label>
+		<skos:memberList rdf:parseType="Collection">
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#ro-x-accent-lowcase-vowels">
+				<skos:prefLabel>áéíóúắấî́</skos:prefLabel>
+				<skos:hiddenLabel>ro-x-accent-lowcase-vowels</skos:hiddenLabel>
+				<skos:note>ro., vocale minuscule accentuate</skos:note>
+				<skos:editorialNote></skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#ro-x-accent-upcase-vowels">
+				<skos:prefLabel>ÁÉÍÓÚẮẤÎ́</skos:prefLabel>
+				<skos:hiddenLabel>ro-x-accent-upcase-vowels</skos:hiddenLabel>
+				<skos:note>ro., vocale majuscule accentuate</skos:note>
+				<skos:editorialNote>Pentru cuvântul titlu.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#fr">
+				<skos:prefLabel> </skos:prefLabel>
+				<skos:hiddenLabel>fr-x-lowcase</skos:hiddenLabel>
+				<skos:note>lat., minuscule pentru franceză</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#sr-Latn-x-lowcase">
+				<skos:prefLabel> </skos:prefLabel>
+				<skos:hiddenLabel>sr-Latn-x-lowcase</skos:hiddenLabel>
+				<skos:note>lat., minuscule pentru sârbo-croată</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#pl-x-lowcase">
+				<skos:prefLabel> </skos:prefLabel>
+				<skos:hiddenLabel>pl-x-lowcase</skos:hiddenLabel>
+				<skos:note>lat., minuscule pentru poloneză</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#tr-x-lowcase">
+				<skos:prefLabel> </skos:prefLabel>
+				<skos:hiddenLabel>tr-x-lowcase</skos:hiddenLabel>
+				<skos:note>lat., minuscule pentru turcă</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#fr-x-upcase">
+				<skos:prefLabel> </skos:prefLabel>
+				<skos:hiddenLabel>fr-x-upcase</skos:hiddenLabel>
+				<skos:note>lat., majuscule pentru franceză</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#sr-Latn-x-upcase">
+				<skos:prefLabel> </skos:prefLabel>
+				<skos:hiddenLabel>sr-Latn-x-upcase</skos:hiddenLabel>
+				<skos:note>lat., majuscule pentru sârbo-croată</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#pl-x-upcase">
+				<skos:prefLabel> </skos:prefLabel>
+				<skos:hiddenLabel>pl-x-upcase</skos:hiddenLabel>
+				<skos:note>lat., majuscule pentru poloneză</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#tr-x-upcase">
+				<skos:prefLabel> </skos:prefLabel>
+				<skos:hiddenLabel>tr-x-upcase</skos:hiddenLabel>
+				<skos:note>lat., majuscule pentru turcă</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#el-x-lowcase">
+				<skos:prefLabel>αβγδεζηθικλμνξοπρςστυφχψω</skos:prefLabel>
+				<skos:hiddenLabel>el-x-lowcase</skos:hiddenLabel>
+				<skos:note>gr., minuscule</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#el-x-acute-accent-vowels">
+				<skos:prefLabel>άέήίόύώ</skos:prefLabel>
+				<skos:hiddenLabel>el-x-acute-accent-vowels</skos:hiddenLabel>
+				<skos:note>gr., vocale cu accent ascuțit</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#el-x-circum-accent-vowels">
+				<skos:prefLabel>ᾶῆῖῦῶ</skos:prefLabel>
+				<skos:hiddenLabel>el-x-circum-accent-vowels</skos:hiddenLabel>
+				<skos:note>gr., vocale cu accent circumflex</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#el-x-grave-accent-vowels">
+				<skos:prefLabel>ὰὲὴὶὸὺὼ</skos:prefLabel>
+				<skos:hiddenLabel>el-x-grave-accent-vowels</skos:hiddenLabel>
+				<skos:note>gr., vocale cu accent grav</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#el-x-psili-lowcase">
+				<skos:prefLabel>ἀἁἐἑἠἡἰἱὀὁὐὑὠὡῤῥ</skos:prefLabel>
+				<skos:hiddenLabel>el-x-psili-lowcase</skos:hiddenLabel>
+				<skos:note>gr., cu spirite</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#el-x-psili-accent-lowcase">
+				<skos:prefLabel>ἄἅἂἃἆἇἒἓἔἕἢἣἤἥἦἧἲἳἴἵἶἷὂὃὄὅὒὓὔὕὖὗὢὣὤὥὦὧ</skos:prefLabel>
+				<skos:hiddenLabel>el-x-psili-accent-lowcase</skos:hiddenLabel>
+				<skos:note>gr., vocale cu spirite și accente</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#el-x-sbs-iota-lowcase">
+				<skos:prefLabel>ᾀᾁᾂᾃᾄᾅᾆᾇᾐᾑᾒᾓᾔᾖᾗᾠᾡᾢᾣᾤᾥᾦᾧ</skos:prefLabel>
+				<skos:hiddenLabel>el-x-sbs-iota-lowcase</skos:hiddenLabel>
+				<skos:note>gr., vocale cu iota subscris</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#el-x-upcase">
+				<skos:prefLabel>ΑΒΓΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</skos:prefLabel>
+				<skos:hiddenLabel>el-x-upcase</skos:hiddenLabel>
+				<skos:note>gr., majuscule</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#el-x-psili-upcase">
+				<skos:prefLabel>ἈἉἘἙἨἩἸἹὈὉὙὨὩῬ</skos:prefLabel>
+				<skos:hiddenLabel>el-x-psili-upcase</skos:hiddenLabel>
+				<skos:note>gr., majuscule cu spirite</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#el-x-psili-accent-upcase">
+				<skos:prefLabel>ἊἋἌἍἎἏἚἛἜἝἪἫἬἭἮἯἺἻἼἽἾἿὊὋὌὍὛὝὟὪὫὬὭὮὯ</skos:prefLabel>
+				<skos:hiddenLabel>el-x-psili-accent-upcase</skos:hiddenLabel>
+				<skos:note>gr., majuscule cu spirite și accente</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#el-x-sbs-iota-upcase">
+				<skos:prefLabel>ᾈᾉᾊᾋᾌᾍᾎᾏᾘᾙᾚᾛᾜᾝᾞᾟᾨᾩᾪᾫᾬᾭᾮᾯ</skos:prefLabel>
+				<skos:hiddenLabel>el-x-sbs-iota-upcase</skos:hiddenLabel>
+				<skos:note>gr., majuscule cu iota subscris</skos:note>
+				<skos:editorialNote>Pentru casetele text cu limbi din secțiunea Etimologie.</skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#">
+				<skos:prefLabel>абвгдежзийклмнопрстуфхцчшщъыьэюя</skos:prefLabel>
+				<skos:hiddenLabel></skos:hiddenLabel>
+				<skos:note>chirilice moderne minuscule</skos:note>
+				<skos:editorialNote></skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#">
+				<skos:prefLabel>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ</skos:prefLabel>
+				<skos:hiddenLabel></skos:hiddenLabel>
+				<skos:note>chirilice moderne majuscule</skos:note>
+				<skos:editorialNote></skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#">
+				<skos:prefLabel>абвгдєжѕӡийкʌмɴoпрстѹꙋфхѡцчшш̩ъѣюѩѥѧѫѯѱөѵꙟџ</skos:prefLabel>
+				<skos:hiddenLabel></skos:hiddenLabel>
+				<skos:note>chirilice vechi minuscule</skos:note>
+				<skos:editorialNote></skos:editorialNote>
+			</skos:Concept>
+			<skos:Concept rdf:about="http://lingv.ro/ontology/special-characters/#">
+				<skos:prefLabel>АБВГДЄЖЅӠИïЙКΛМNОПРСТѸꙊФХѠЦЧШШ̩ЪьѢЮѨѤѦѪѮѰӨѴꙞЏ</skos:prefLabel>
+				<skos:hiddenLabel></skos:hiddenLabel>
+				<skos:note>chirilice vechi majuscule</skos:note>
+				<skos:editorialNote></skos:editorialNote>
+			</skos:Concept>
+		</skos:memberList>
+	</skos:OrderedCollection>
+</rdf:RDF>

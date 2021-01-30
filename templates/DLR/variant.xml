@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uuid-${uuid}" version="3.3.0" source="0.1">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title />
+				<author />
+				<editor role="reviewer" />
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Romanian Academy, Philology and Literature Section</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<p>born digital</p>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<creation>
+				<date when-iso="${date(yyyy-MM-dd'T'HH:mm:ssZ)}" />
+			</creation>
+		</profileDesc>
+		<revisionDesc />
+	</teiHeader>
+	<text type="dlr-variant">
+		<body>
+			<entry>
+				<form type="headword">
+					<orth n="" />
+					<stress xml:lang="ro-x-accent-upcase-vowels" />
+					<syll />
+					<pron />
+				</form>
+				<gramGrp>
+					<pos value="" />
+				</gramGrp>
+				<ptr type="trimitere" target=""/>
+			</entry>
+		</body>
+	</text>
+</TEI>
