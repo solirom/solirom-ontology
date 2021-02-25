@@ -1,7 +1,7 @@
 <body xmlns="http://www.tei-c.org/ns/1.0" xml:id="uuid-${uuid}">
 	<entry>
 		<form type="lemma" xml:lang="ro-x-accent-upcase-vowels"/>
-		<sense n="" />
+		<sense n="" xml:id="uuid-${uuid}"/>
 		<form type="varia"/>
 		<etym/>
 		<note type="bibl-ref"/>
