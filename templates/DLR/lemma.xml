@@ -1,58 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="uuid-${uuid}" version="3.3.0" source="0.21">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title />
-				<author />
-				<editor role="reviewer" />
-			</titleStmt>
-			<publicationStmt>
-				<publisher>Romanian Academy, Philology and Literature Section</publisher>
-			</publicationStmt>
-			<sourceDesc>
-				<p>born digital</p>
-			</sourceDesc>
-		</fileDesc>
-		<profileDesc>
-			<creation>
-				<date when-iso="${date(yyyy-MM-dd'T'HH:mm:ssZ)}" />
-			</creation>
-		</profileDesc>
-		<revisionDesc />
-	</teiHeader>
-	<text type="editing-mode-dlr">
-		<body>
-			<entry>
-				<form type="headword">
-					<orth n="" />
-					<stress xml:lang="ro-x-accent-upcase-vowels" />
-					<syll />
-					<pron />
-				</form>
-				<gramGrp>
-					<pos value="" />
-				</gramGrp>
-				<dictScrap xml:id="dlr-senses">
-					<sense xml:id="uuid-${uuid}" n="" />
-				</dictScrap>
-				<dictScrap xml:id="dex-senses">
-					<sense xml:id="uuid-${uuid}" n="">
-						<def xml:id="uuid-${uuid}" />
-						<cit>
-							<quote />
-							<bibl type="unknown">
-								<ptr target="unknown" />
-								<date />
-								<citedRange />
-							</bibl>
-						</cit>
-					</sense>
-				</dictScrap>
-				<etym cert="high">
-					<idno type="unknown" />
-				</etym>
-			</entry>
-		</body>
-	</text>
-</TEI>
+<body xmlns="http://www.tei-c.org/ns/1.0" xml:id="uuid-${uuid}">
+	<entry>
+		<form type="lemma" xml:lang="ro-x-accent-upcase-vowels"/>
+		<sense n="" />
+		<form type="varia"/>
+		<etym/>
+		<note type="bibl-ref"/>
+	</entry>
+	<note>
+		<editor role="author"/>
+		<editor role="reviewer"/>
+	</note>
+	<note>
+		<idno type="lexicon"/>
+	</note>
+</body>
