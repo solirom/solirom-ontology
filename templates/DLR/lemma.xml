@@ -1,7 +1,9 @@
 <body xmlns="http://www.tei-c.org/ns/1.0" xml:id="uuid-${uuid}">
 	<entry>
 		<form type="lemma" xml:lang="ro-x-accent-upcase-vowels"/>
-		<sense xml:id="uuid-${uuid}"/>
+        <dictScrap xml:id="senses">
+            <sense xml:id="uuid-${uuid}"/>
+        </dictScrap>
 		<form type="varia"/>
 		<etym/>
 		<note type="bibl-ref"/>
