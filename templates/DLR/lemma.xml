@@ -2,7 +2,10 @@
 	<entry>
 		<form type="headword" xml:lang="ro-x-accent-upcase-vowels"/>
         <dictScrap xml:id="senses">
-            <sense xml:id="uuid-${uuid}"/>
+            <sense xml:id="uuid-${uuid}">
+                <def/>
+                <dictScrap/>                
+            </sense>
         </dictScrap>
 		<form type="varia"/>
 		<etym/>
