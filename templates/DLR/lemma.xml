@@ -12,7 +12,7 @@
 		<etym/>
 		<note type="bibl-ref"/>
 	</entry>
-	<note>
+	<note type="persons">
 		<editor role="author"/>
 		<editor role="reviewer"/>
 	</note>
