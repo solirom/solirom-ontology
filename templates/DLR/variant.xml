@@ -1,7 +1,7 @@
 <body xmlns="http://www.tei-c.org/ns/1.0" xml:id="uuid-${uuid}">
 	<entry>
 		<form type="headword" xml:lang="ro-x-accent-upcase-vowels"/>
-		<xr type="see">v. <ref target="#uuid"/></xr>		
+		<xr type="see"><ref target="#uuid"/></xr>		
         <dictScrap xml:id="senses">
             <sense xml:id="uuid-${uuid}">
                 <def/>
