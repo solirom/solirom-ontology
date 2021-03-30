@@ -13,7 +13,7 @@
 		<note type="bibl-ref"/>
 	</entry>
 	<note type="persons">
-		<editor role="author"/>
+        <editor role="author">${system(dlri.username)}</editor>
 		<editor role="reviewer"/>
 	</note>
 	<note>
