@@ -10,7 +10,7 @@
         </dictScrap>
 	</entry>
 	<note type="persons">
-		<editor role="author"/>
+		<editor role="author">${dlri.username}</editor>
 		<editor role="reviewer"/>
 	</note>
 	<note>
